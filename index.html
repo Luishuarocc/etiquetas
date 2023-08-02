@@ -12,13 +12,13 @@
     <form action="".menasaje.html">
 
         <div>
-            <label form="name">Your Name</label>
-            <input type="text" required maxlength="7">
+            <label form="personName">Your Name</label>
+            <input id="personName" type="text" required maxlength="7">
         </div>
 
         <div>
             <label form="emailperson">Your email</label>
-            <input type="email" required minlength="6">
+            <input type="email" autofocus required minlength="6">
         </div>
 
         <div>
@@ -33,7 +33,7 @@
 
             <article>
                 <label for="">rango</label>
-                <input type="range" min="4" max="99" required>
+                <input type="rango" required>
             </article>
 
             <article>
@@ -45,9 +45,15 @@
                 <label for="">pass word</label>
                 <input type="password" required >
             </article>
+            
+            <article>
+                <label for="">edad</label>
+                <input id="personm" type="number" min="18" max="30" required>
+            </article>
 
         <section>
             <button type="submit">Send</button>
+    
         </section>
 
         </section>
